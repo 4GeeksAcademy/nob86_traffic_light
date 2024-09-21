@@ -1,27 +1,43 @@
 
 .light1 {
-    box-shadow: 0 0 15px 20px rgba(255, 0, 0, 0.7); /* Rojo */
+    box-shadow: 0 0 15px 20px rgba(255, 0, 0, 0.7); 
     transition: box-shadow 0.3s ease;
   }
   
   .light2 {
-    box-shadow: 0 0 15px 20px rgba(225, 240, 5, 0.7); /* Rojo */
+    box-shadow: 0 0 15px 20px rgba(225, 240, 5, 0.7); 
     transition: box-shadow 0.3s ease;
   }
 
   .light3 {
-    box-shadow: 0 0 15px 20px rgba(2, 241, 22, 0.7); /* Rojo */
+    box-shadow: 0 0 15px 20px rgba(2, 241, 22, 0.7); 
     transition: box-shadow 0.3s ease;
+  }
+
+  .light4 {
+    box-shadow: 0 0 15px 20px rgba(128, 0, 128, 0.7); 
+    transition: box-shadow 0.3s ease;
+  }
+
+  .bg-purple {
+    background-color: purple; 
   }
 
   button{
     border-radius: 100%;
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
   }
 
   .container {
-    width: 250px;
-    height: 700px;
+    width: 150px;
+    height: 500px;
    
+  }
+
+  .alternate{
+    width: 100px;
+    height: 50px;
+    border-radius: 0%;
+    margin-top: 50px;
   }
