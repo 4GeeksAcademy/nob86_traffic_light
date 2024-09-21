@@ -1,21 +1,27 @@
 
 .light1 {
-    box-shadow: 0 0 15px 5px rgba(255, 0, 0, 0.7); /* Rojo */
+    box-shadow: 0 0 15px 20px rgba(255, 0, 0, 0.7); /* Rojo */
     transition: box-shadow 0.3s ease;
   }
   
   .light2 {
-    box-shadow: 0 0 15px 5px rgba(225, 240, 5, 0.7); /* Rojo */
+    box-shadow: 0 0 15px 20px rgba(225, 240, 5, 0.7); /* Rojo */
     transition: box-shadow 0.3s ease;
   }
 
   .light3 {
-    box-shadow: 0 0 15px 5px rgba(2, 241, 22, 0.7); /* Rojo */
+    box-shadow: 0 0 15px 20px rgba(2, 241, 22, 0.7); /* Rojo */
     transition: box-shadow 0.3s ease;
   }
 
   button{
     border-radius: 100%;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
+  }
+
+  .container {
+    width: 300px;
+    height: 700px;
+   
   }
